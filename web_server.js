@@ -21,3 +21,25 @@ var io = xpress.io;
 app.get('/', function(req, res){
     res.render("index")
 })
+
+app.get('/home', function(req, res){
+    res.render("home")
+})
+
+app.get('/about', function(req, res){
+    res.render("about")
+})
+
+app.get('/service', function(req, res){
+    res.render("service")
+})
+
+app.get('/contact', function(req, res){
+    res.render("contact")
+})
+
+app.get('/portfolio', function(req, res){
+    res.render("portfolio")
+})
+
+

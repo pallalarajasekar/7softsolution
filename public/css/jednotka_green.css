@@ -5999,7 +5999,7 @@ body {
       background-size: 1920px 535px; } }
 
 #main-content {
-  padding: 70px 0 80px 0;
+  padding: 50px 0 80px 0;
   background-color: white; }
 
 body.boxed #scroll-to-top {
@@ -10393,22 +10393,22 @@ table {
 /*------------------------------------*\
     $CONTACT PAGE
 \*------------------------------------*/
-body.contact-page #map-canvas {
+body.contact-page #map {
   width: 100%;
   height: 300px;
   overflow: hidden; }
   @media (min-width: 768px) {
-    body.contact-page #map-canvas {
+    body.contact-page #map {
       height: 326px; } }
 body.contact-page textarea {
   min-height: 215px; }
 body.contact-page.contact-page-wide-map #main-content {
   padding-top: 0; }
-body.contact-page.contact-page-wide-map #map-canvas {
+body.contact-page.contact-page-wide-map #map {
   margin-bottom: 70px;
   height: 300px; }
   @media (min-width: 768px) {
-    body.contact-page.contact-page-wide-map #map-canvas {
+    body.contact-page.contact-page-wide-map #map{
       height: 400px; } }
 
 /*------------------------------------*\
