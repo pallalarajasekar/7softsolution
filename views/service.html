@@ -239,6 +239,21 @@
                                 </ul>
                             </div>
                         </div>
+                        <div class="row">
+                            <div class="container">
+                            <div class="modal-dialog">
+
+                            <div class='col-sm-6'>
+                                <p>And more than anything, the experience you can trust.</p>
+                            </div>
+                            <div class='col-sm-6'>
+                                <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#myModal">
+                                    Service Enquiry
+                                </button>
+                            </div>
+                        </div>
+                        </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -366,6 +381,62 @@
             </div>
         </div>
     </footer>
+</div>
+
+<!--model-->
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Request a Quote</h4>
+                <p class="modal-subtitle">We would love to work with you</p>
+
+            </div>
+            <div class="modal-body">
+                <form method="post" name="apply-job-form" id="apply-job-form">
+                    <div class="container">
+                        <div class="row">
+                            <h4 class="form-header">Your Information<span class="red-star">*</span></h4>
+                            <div class="form-group col-sm-12 col-md-12 col-lg-12 clearfix">
+                                <input class="form-control" type="text" id="full-name" name="fullname" placeholder="Full Name" style="width:500px"/>
+                                <input class="form-control" type="email" id="email" name="email" placeholder="Your Email"  style="width:500px"/>
+                                <input class="form-control" type="tel" id="phone" name="phone" placeholder="Your Contact No" style="width:500px"/>
+                            </div>
+                            <h4 class="form-header">Additional Information<span class="red-star"></span></h4>
+                            <div class="form-group col-sm-12 col-md-12 col-lg-12 clearfix">
+                                <textarea class="form-control" name="other" placeholder="Other Details" style="width:500px"></textarea>
+                            </div>
+                            <div class="services-interested">
+                                <h4 class="form-header">Services Required<span class="red-star">*</span></h4>
+                                <div class="col-sm-12 col-md-12 col-lg-12 interested">
+                                    <ul>
+                                        <li>
+                                            <input class="js-switch" type="checkbox" value="Mobileapp" id="Mobileapp" name="services[]" >
+                                            <label tabindex="12" for="Mobileapp">Web Apps Development</label>
+                                        </li>
+                                        <li>
+                                            <input class="js-switch" type="checkbox" value="iphoneapp" id="iphoneapp" name="services[]" >
+                                            <label tabindex="13" for="iphoneapp">Ecommerce</label>
+                                        </li>
+                                        <li>
+                                            <input class="js-switch" type="checkbox" value="androidapp" id="androidapp" name="services[]" >
+                                            <label tabindex="14" for="androidapp">Mobile Development</label>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Get a Qoute</button>
+            </div>
+        </div>
+    </div>
 </div>
 
 
