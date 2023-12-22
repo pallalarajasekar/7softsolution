@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_pallalarajasekar_7softsolution_1703225396805-pr-trigger-input-set
+  identifier: Build_pallalarajasekar_7softsolution_1703225396805prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_pallalarajasekar_7softsolution_1703225396805
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
